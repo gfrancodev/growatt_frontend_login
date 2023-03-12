@@ -1,51 +1,57 @@
 export const MockCourses = [
   {
     id: 1,
-    name: "Reduza custos",
-    img: "https://source.unsplash.com/random",
+    title: "Reduza custos",
+    image: "https://source.unsplash.com/random",
     description:
       "standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.",
     rating: 4,
+    link: "#",
   },
   {
     id: 2,
-    name: "Reduza custos",
-    img: "https://source.unsplash.com/random",
+    title: "Reduza custos",
+    image: "https://source.unsplash.com/random",
     description:
       "standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.",
     rating: 4,
+    link: "#",
   },
   {
     id: 3,
-    name: "Reduza custos",
-    img: "https://source.unsplash.com/random",
+    title: "Reduza custos",
+    image: "https://source.unsplash.com/random",
     description:
       "standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.",
     rating: 4,
+    link: "#",
   },
   {
     id: 4,
-    name: "Reduza custos",
-    img: "https://source.unsplash.com/random",
+    title: "Reduza custos",
+    image: "https://source.unsplash.com/random",
     description:
       "standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.",
     rating: 4,
+    link: "#",
   },
   {
     id: 5,
-    name: "Reduza custos",
-    img: "https://source.unsplash.com/random",
+    title: "Reduza custos",
+    image: "https://source.unsplash.com/random",
     description:
       "standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.",
     rating: 4,
+    link: "#",
   },
   {
     id: 6,
-    name: "Reduza custos",
-    img: "https://source.unsplash.com/random",
+    title: "Reduza custos",
+    image: "https://source.unsplash.com/random",
     description:
       "standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.",
     rating: 4,
+    link: "#",
   },
 ];
 
@@ -53,26 +59,32 @@ export const MyCourses = [
   {
     image: "https://source.unsplash.com/random",
     link: "#",
+    price: 110,
   },
   {
     image: "https://source.unsplash.com/random",
     link: "#",
+    price: 112,
   },
   {
     image: "https://source.unsplash.com/random",
     link: "#",
+    price: 117,
   },
   {
     image: "https://source.unsplash.com/random",
     link: "#",
+    price: 321,
   },
   {
     image: "https://source.unsplash.com/random",
     link: "#",
+    price: 212,
   },
   {
     image: "https://source.unsplash.com/random",
     link: "#",
+    price: 13.50,
   },
 ];
 

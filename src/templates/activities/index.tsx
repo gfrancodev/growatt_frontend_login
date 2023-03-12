@@ -1,7 +1,9 @@
 import React from "react";
 import { Box, Heading, Stack } from "@chakra-ui/react";
+
+import { CardActivitys } from "@components/_ui/Cards";
+
 import { MockCourses } from "@utils/mockCourses";
-import { CardActivitys } from "@components/cards/card-activitys";
 
 export const Activities_Template = () => {
   return (
@@ -44,8 +46,8 @@ export const Activities_Template = () => {
       {MockCourses.map((course) => (
         <CardActivitys
           key={course.id}
-          img={course.img}
-          title={course.name}
+          img={course.image}
+          title={course.title}
           description={course.description}
           rating={course.rating}
         />
@@ -61,8 +63,8 @@ export const Activities_Template = () => {
       {MockCourses.map((course) => (
         <CardActivitys
           key={course.id}
-          img={course.img}
-          title={course.name}
+          img={course.image}
+          title={course.title}
           description={course.description}
           rating={course.rating}
         />

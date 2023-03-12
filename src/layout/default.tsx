@@ -1,7 +1,7 @@
 import { Box, Container, useDisclosure } from "@chakra-ui/react";
 import React from "react";
-import Sidebar from "@components/sidebar";
-import Footer from "@components/footer";
+import Sidebar from "@components/_ui/Sidebar";
+import Footer from "@components/_ui/Footer";
 
 type LayoutDashboardDefaultProps = {
   children: React.ReactNode;
@@ -22,11 +22,32 @@ export const LayoutDashboardDefault = ({
           base: "none",
           md: "3xl",
         }}
-        // mb={10}
         bg="#000"
         mx={4}
       >
-        {children}
+        <Box
+          p={4}
+          w={"full"}
+          h={"full"}
+          color={"white"}
+          overflowY={"auto"}
+          css={{
+            "&::-webkit-scrollbar": {
+              width: "0.3em",
+            },
+            "&::-webkit-scrollbar-track": {
+              boxShadow: "inset 0 0 6px rgba(0,0,0,0.00)",
+              webkitBoxShadow: "inset 0 0 6px rgba(0,0,0,0.00)",
+            },
+            "&::-webkit-scrollbar-thumb": {
+              outline: "1px solid  slategrey",
+              borderRadius: "4px",
+              backgroundColor: "#666",
+            },
+          }}
+        >
+          {children}
+        </Box>
       </Box>
       {/* <Footer /> */}
     </Box>

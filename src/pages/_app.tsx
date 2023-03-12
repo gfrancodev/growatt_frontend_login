@@ -5,6 +5,7 @@ import theme from "@themes/theme";
 import NProgress from "nprogress";
 import "@themes/nprogress.css";
 import { Router } from "next/router";
+import { CartProvider } from "@context/CartContext";
 
 export default class myApp extends App {
   static async getInitialProps({ Component, ctx }: any) {
@@ -59,9 +60,11 @@ export default class myApp extends App {
 
     return (
       <ChakraProvider theme={theme}>
-        <Layout>
-          <Component {...pageProps} />
-        </Layout>
+        <CartProvider>
+          <Layout>
+            <Component {...pageProps} />
+          </Layout>
+        </CartProvider>
       </ChakraProvider>
     );
   }

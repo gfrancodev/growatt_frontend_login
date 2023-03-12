@@ -50,6 +50,9 @@
       "@layout/*": [
         "./src/layouts/*"
       ],
+      "@constants/*": [
+        "./src/constants/*"
+      ],
     }
   },
   "include": [
